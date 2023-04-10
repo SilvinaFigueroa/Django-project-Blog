@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blog.apps.BlogConfig',
 ]
 
 MIDDLEWARE = [
@@ -119,5 +120,8 @@ STATIC_URL = 'static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
+# Django adds an auto-incrementing primary key field to each model. 
+# The field type for this field is specified in each application configuration or globally in the DEFAULT_AUTO_FIELD setting
+# BigAutoField 64-bit integer that automatically increments according to available IDs
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
