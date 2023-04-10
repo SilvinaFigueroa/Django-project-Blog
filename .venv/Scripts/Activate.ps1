@@ -1,6 +1,7 @@
 <#
 .Synopsis
 Activate a Python virtual environment for the current PowerShell session.
+command .venv\Scripts\Activate.ps1
 
 .Description
 Pushes the python executable for a virtual environment to the front of the
