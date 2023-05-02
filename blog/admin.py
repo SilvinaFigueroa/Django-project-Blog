@@ -1,6 +1,9 @@
 from django.contrib import admin
 from .models import Post
 
+# This is where you register models to include them in the Django administration site—using this site is optional.
+# class PostAdmin: In this class, we can include information about how to display
+# the model on the site and how to interact with it
 
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):

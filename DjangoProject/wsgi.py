@@ -2,6 +2,8 @@
 WSGI config for DjangoProject project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
+Coonfiguration to run your project as a Web Server Gateway Interface (WSGI)
+application with WSGI-compatible web servers
 
 For more information on this file, see
 https://docs.djangoproject.com/en/4.2/howto/deployment/wsgi/
